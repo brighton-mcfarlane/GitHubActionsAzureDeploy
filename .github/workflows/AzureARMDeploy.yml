@@ -30,4 +30,4 @@ jobs:
             token: ${{ secrets.REPO_GHA_PAT }}
             repository: ${{ github.repository }}
             event-type: trigger-workflow-2
-            client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}" "name": "${{azuredeploy.variables.functionAppName}}"}'
+            client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
