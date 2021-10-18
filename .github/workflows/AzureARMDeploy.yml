@@ -21,7 +21,7 @@ jobs:
           uses: azure/CLI@v1
           with:
             inlineScript: |
-              az deployment group create --resource-group AzureChallengeGitHubActionsRG --template-file azuredeploy.json 
+              az deployment group create --resource-group AzureChallengeGitHubActionsRG --template-file azuredeploy.json --parameter appName="AzureDeployDeployment1998"
         
         - name: Trigger next workflow
           if: success()

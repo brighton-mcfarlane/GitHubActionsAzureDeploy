@@ -16,7 +16,7 @@ on:
 env:
   DOTNET_VERSION: 3.1.x
   AZURE_FUNCTIONAPP_PACKAGE_PATH: 'GitHubActionsChallengeFunctionApp'
-  AZURE_FUNCTIONAPP_NAME: ${{ github.event.client_payload.}}
+  AZURE_FUNCTIONAPP_NAME: "AzureDeployDeployment1998"
 
 
 jobs:
