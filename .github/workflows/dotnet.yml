@@ -3,9 +3,8 @@ name: Workflow 2
 
 on:
   repository_dispatch:
-    types: [trigger-workflow-2]
-  workflow_dispatch:
-    branches: [test-branch]
+    types: [trigger-workflow-2] 
+
 
 # CONFIGURATION
 # For help, go to https://github.com/Azure/Actions
