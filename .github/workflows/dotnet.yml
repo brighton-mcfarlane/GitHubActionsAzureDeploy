@@ -3,7 +3,7 @@ name: Workflow 2
 
 on:
   repository_dispatch:
-    types: [trigger-workflow-2]
+    types: [trigger-workflow-2] 
   workflow_dispatch:
     branches: [test-branch]
 
